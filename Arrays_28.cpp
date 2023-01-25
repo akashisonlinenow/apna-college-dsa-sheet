@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int maxArea(vector<int>& height) {   //two pointer approach
+    int maxArea(vector<int>& height) {   //two pointer approach   leetcode
         int ans = 0;
         int left = 0;
         int right = height.size()-1;
