@@ -40,7 +40,7 @@ public:
         // else
         //     return -1;
 
-        int ele = 0;
+        int ele = 0;                     // Moores voting algorithm
         int count = 0;
         for (int i = 0; i < n; i++)
         {
@@ -55,7 +55,7 @@ public:
         }
 
         count = 0;
-        for (int i = 0; i < n; i++)
+        for (int i = 0; i < n; i++)                               // checking that whether the count of ele obtained is greater than n/2                     
         {
             if (ele == arr[i])
                 count++;
