@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-using namespace std;
+using namespace std;                                                                         // by ayushi sharma       
 
 int _mergeSort(int arr[], int temp[], int left, int right);
 int merge(int arr[], int temp[], int left, int mid,
